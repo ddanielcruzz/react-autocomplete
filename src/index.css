@@ -1,0 +1,27 @@
+:root {
+  --app-background-color: hsl(220, 13%, 8%);
+  --element-background-color: hsl(220, 13%, 28%);
+  --element-background-color-hover: hsl(220, 13%, 35%);
+  --element-background-color-selected: hsl(220, 13%, 45%);
+  --text-color: hsl(220, 13%, 80%);
+  --border-color: hsl(220, 13%, 50%);
+  --base-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

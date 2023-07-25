@@ -1,0 +1,39 @@
+.list {
+  list-style: none;
+  background-color: var(--element-background-color);
+  color: var(--text-color);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  border-radius: var(--base-radius);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+}
+
+.list > * {
+  padding: 16px 0;
+}
+
+.list > *:hover:not(.selected-option) {
+  background-color: var(--element-background-color-hover);
+}
+
+.list > *:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.selected-option:first-of-type {
+  background-color: var(--element-background-color-selected);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.selected-option {
+  background-color: var(--element-background-color-selected);
+}
+
+.selected-option:last-of-type {
+  background-color: var(--element-background-color-selected);
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
